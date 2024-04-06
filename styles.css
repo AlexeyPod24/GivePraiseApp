@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body, html {
+    min-width: 100%;
+    min-height: 100vh;
+   
+    }
+    
+    img {
+        max-width: 100%;
+        display: block;
+    }
+  
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  
+    .container {
+      display: flex;
+      align-items: center;
+      max-height: 100%;
+      flex-direction: column;
+      background-color: #1B1924;
+      width: 390px;
+      margin: 0 auto;
+      margin-top: 3rem;
+      padding: 3.1em 2.1em 8em 2.1em;
+      border-radius: 10px;
+     
+      
+    }
+
+    img {
+      width: 25%;
+    }
+    
+    h2 {
+      color: #FFF;
+      padding-top: .9em;
+      font-family: "Josefin Sans";
+      font-size: 1.5625rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding-bottom: .81em;
+    }
+
+    .text-input {
+      display: flex;
+      color: white;
+      font-family: "Inter";
+      font-size: 0.9375rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 17.625rem;
+      height: 5.8125rem;
+      background-color: #444059;
+      padding: 0 1em 3em 1em;
+      border-radius: 10px;
+      border: none;
+      padding-top: .8em;
+      overflow: hidden;
+      resize: none;
+ 
+    }
+
+    button {
+      margin-top: .8em;
+      width: 17.625rem;
+      height: 3.8125rem;
+      border-radius: 0.5rem;
+      background: #28A9F1;
+      color: #04131c;
+      font-family: "Josefin Sans";
+      font-size: 1.375rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      
+    }
+
+    h3 {
+      color: #FFF;
+      font-family: "Josefin Sans";
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 1em 0;
+    }
+
+    .endorsements {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .messageInput {
+    width: 17.625rem;
+    margin-bottom: 1em;
+    padding: .8em 1em;
+    background-color: WHITE;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    color: #1B1924;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    }
+
+    .fromTo-container {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    input {
+      margin-top: 1em;
+      width: 38%;
+      background-color: #444059;
+      padding: .5em .5em;
+      border-radius: 10px;
+      border: none;
+      text-align: center;
+      color: white;
+      font-family: "Inter";
+     
+
+    }
+
+    .to-from{
+      font-weight: 700;
+      font-family: "Inter";
+    }
+
+    .msg-body {
+      padding: 1em 0;
+    }
+
+    /* Desktop styles */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 600px;
+    margin-top: 5rem;
+  }
+
+  .text-input {
+    width: 100%;
+    height: 10rem; /* Adjust height for desktop */
+    padding: 1em; /* Adjust padding for desktop */
+  }
+
+  button {
+    width: 100%;
+  }
+
+  input {
+    width: 45%;
+  }
+
+  .messageInput {
+    width: 33rem;
+  }
+
+}
